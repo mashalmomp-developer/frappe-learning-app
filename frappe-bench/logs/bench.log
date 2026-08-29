@@ -1,0 +1,11 @@
+2026-08-26 11:32:59,488 DEBUG cd frappe-bench && uv venv env --seed --python python3
+2026-08-26 11:33:00,118 LOG Getting frappe
+2026-08-26 11:33:00,119 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2026-08-26 11:33:04,638 LOG Installing frappe
+2026-08-26 11:33:04,640 DEBUG cd /workspaces/frappe-learning-app/frappe-bench && uv pip install --quiet -e /workspaces/frappe-learning-app/frappe-bench/apps/frappe  --python /workspaces/frappe-learning-app/frappe-bench/env/bin/python
+2026-08-26 11:33:58,262 DEBUG cd /workspaces/frappe-learning-app/frappe-bench/apps/frappe && yarn install --check-files
+2026-08-26 11:34:57,996 DEBUG cd frappe-bench && bench build
+2026-08-26 11:34:58,432 INFO /home/codespace/.local/bin/bench build
+2026-08-26 11:35:20,655 LOG setting up backups
+2026-08-26 11:35:21,688 ERROR There was a problem while creating frappe-bench
+2026-08-26 11:36:28,901 WARNING /home/codespace/.local/bin/bench init frappe-bench executed with exit code 1
